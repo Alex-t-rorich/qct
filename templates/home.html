@@ -1,0 +1,24 @@
+{% extends "oscar/layout.html" %}
+
+{% block title %}
+Welcome to QCT Store - Custom Page
+{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12">
+            <h1>Welcome to Our Store</h1>
+            <p class="lead">Discover amazing products at great prices</p>
+            
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">Featured Products</h5>
+                    <p class="card-text">Check out our latest collection of products.</p>
+                    <a href="{% url 'catalogue:index' %}" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
