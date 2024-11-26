@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'oscar.apps.dashboard.users.apps.UsersDashboardConfig',
     
     'widget_tweaks',
+    'django_tables2'
 ]
 
 SITE_ID = 1
